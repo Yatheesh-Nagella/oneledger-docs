@@ -66,7 +66,7 @@ Contributions are welcome! Please read our [development guide](./guides/developm
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Yatheesh-Nagella/yatheesh-portfolio/blob/main/LICENSE) file for details.
 
 ## 🔗 Links
 
