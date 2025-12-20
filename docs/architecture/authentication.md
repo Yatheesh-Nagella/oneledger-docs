@@ -1,6 +1,6 @@
 # Authentication Guide
 
-Complete guide to authentication and authorization in OneLedger.
+Complete guide to authentication and authorization in OneLibro.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Complete guide to authentication and authorization in OneLedger.
 
 ## Overview
 
-OneLedger has **two separate authentication systems**:
+OneLibro has **two separate authentication systems**:
 
 1. **User Authentication** - Supabase Auth for finance app users
 2. **Admin Authentication** - Custom auth with TOTP 2FA for admin dashboard
@@ -437,7 +437,7 @@ export async function setupAdminTOTP(userId: string) {
   // Generate QR code URL
   const otpauthUrl = authenticator.keyuri(
     user.email,
-    'OneLedger Admin',
+    'OneLibro Admin',
     secret
   );
 

@@ -1,6 +1,6 @@
 # API Reference
 
-Complete reference for all OneLedger API endpoints.
+Complete reference for all OneLibro API endpoints.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Complete reference for all OneLedger API endpoints.
 
 ## Overview
 
-OneLedger uses **Next.js API Routes** (serverless functions) for all backend operations.
+OneLibro uses **Next.js API Routes** (serverless functions) for all backend operations.
 
 **Base URL (Development):**
 ```
@@ -730,7 +730,7 @@ Generate TOTP secret and QR code for 2FA setup.
 ```json
 {
   "secret": "JBSWY3DPEHPK3PXP",
-  "qrCodeUrl": "otpauth://totp/OneLedger%20Admin:admin@example.com?secret=JBSWY3DPEHPK3PXP&issuer=OneLedger%20Admin"
+  "qrCodeUrl": "otpauth://totp/OneLibro%20Admin:admin@example.com?secret=JBSWY3DPEHPK3PXP&issuer=OneLibro%20Admin"
 }
 ```
 

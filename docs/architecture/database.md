@@ -1,6 +1,6 @@
 # Database Schema Documentation
 
-Complete documentation of OneLedger's PostgreSQL database schema hosted on Supabase.
+Complete documentation of OneLibro's PostgreSQL database schema hosted on Supabase.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Complete documentation of OneLedger's PostgreSQL database schema hosted on Supab
 
 ## Overview
 
-OneLedger uses **PostgreSQL** via **Supabase** with the following design principles:
+OneLibro uses **PostgreSQL** via **Supabase** with the following design principles:
 
 - ✅ **Row Level Security (RLS)** for data isolation
 - ✅ **Foreign key constraints** for referential integrity

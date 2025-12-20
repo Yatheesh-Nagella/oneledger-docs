@@ -1,6 +1,6 @@
-# OneLedger Architecture
+# OneLibro Architecture
 
-This document describes the system architecture, design patterns, and technical decisions behind OneLedger.
+This document describes the system architecture, design patterns, and technical decisions behind OneLibro.
 
 ## Table of Contents
 
@@ -13,18 +13,18 @@ This document describes the system architecture, design patterns, and technical 
 
 ## System Overview
 
-OneLedger is a Next.js 15 application with three distinct subdomains, each serving a specific purpose:
+OneLibro is a Next.js 15 application with three distinct subdomains, each serving a specific purpose:
 
-![OneLedger System Context](/img/diagrams/one-ledger-system-context.png)
+![OneLibro System Context](/img/diagrams/one-ledger-system-context.png)
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                     OneLedger System                     │
+│                     OneLibro System                     │
 ├─────────────────────────────────────────────────────────┤
 │                                                          │
 │  ┌────────────────┐  ┌──────────────┐  ┌────────────┐  │
 │  │  Portfolio      │  │  Finance App │  │  Admin     │  │
-│  │  (Main Site)   │  │  (OneLedger) │  │  Dashboard │  │
+│  │  (Main Site)   │  │  (OneLibro) │  │  Dashboard │  │
 │  └────────────────┘  └──────────────┘  └────────────┘  │
 │        │                    │                  │        │
 │        └────────────────────┴──────────────────┘        │

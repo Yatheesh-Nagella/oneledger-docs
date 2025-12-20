@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'OneLedger Documentation',
+  title: 'OneLibro Documentation',
   tagline: 'Personal Finance Tracker with Plaid Integration',
   favicon: 'img/favicon.ico',
 
@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://Yatheesh-Nagella.github.io', // TODO: Update with your GitHub username
+  url: 'https://Yatheesh-Nagella.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/oneledger-docs/',
+  baseUrl: '/OneLibro-DOCS/',
 
   // GitHub pages deployment config.
-  organizationName: 'Yatheesh-Nagella', // TODO: Update with your GitHub username
-  projectName: 'oneledger-docs',
+  organizationName: 'Yatheesh-Nagella',
+  projectName: 'OneLibro-DOCS',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -47,7 +47,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/Yatheesh-Nagella/oneledger-docs/tree/main/',
+          editUrl: 'https://github.com/Yatheesh-Nagella/OneLibro-DOCS/tree/main/',
           // Versioning configuration - disabled for now
           // lastVersion: 'current',
           // versions: {
@@ -64,13 +64,13 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/Yatheesh-Nagella/oneledger-docs/tree/main/',
+          editUrl: 'https://github.com/Yatheesh-Nagella/OneLibro-DOCS/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-          blogTitle: 'OneLedger Blog',
-          blogDescription: 'Updates, changelogs, and guides for OneLedger',
+          blogTitle: 'OneLibro Blog',
+          blogDescription: 'Updates, changelogs, and guides for OneLibro',
           blogSidebarTitle: 'Recent posts',
           blogSidebarCount: 10,
         },
@@ -83,16 +83,16 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/oneledger-social-card.jpg',
+    image: 'img/OneLibro-social-card.jpg',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'OneLedger',
+      title: 'OneLibro',
       logo: {
-        alt: 'OneLedger Logo',
+        alt: 'OneLibro Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -125,7 +125,7 @@ const config: Config = {
         //   dropdownActiveClassDisabled: true,
         // },
         {
-          href: 'https://github.com/Yatheesh-Nagella/oneledger-docs',
+          href: 'https://github.com/Yatheesh-Nagella/OneLibro-DOCS',
           label: 'GitHub',
           position: 'right',
         },
@@ -186,7 +186,7 @@ const config: Config = {
             // },
             {
               label: 'GitHub',
-              href: 'https://github.com/Yatheesh-Nagella/oneledger-docs',
+              href: 'https://github.com/Yatheesh-Nagella/OneLibro-DOCS',
             },
             {
               label: 'Main App',
@@ -195,7 +195,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} OneLedger. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} OneLibro. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
@@ -206,14 +206,14 @@ const config: Config = {
     // algolia: {
     //   appId: 'YOUR_APP_ID',
     //   apiKey: 'YOUR_SEARCH_API_KEY',
-    //   indexName: 'oneledger',
+    //   indexName: 'OneLibro',
     //   contextualSearch: true,
     // },
     // Announcements banner (optional)
     // announcementBar: {
     //   id: 'support_us',
     //   content:
-    //     '⭐️ If OneLedger helps you, give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/Yatheesh-Nagella/yatheesh-portfolio">GitHub</a>!',
+    //     '⭐️ If OneLibro helps you, give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/Yatheesh-Nagella/yatheesh-portfolio">GitHub</a>!',
     //   backgroundColor: '#fafbfc',
     //   textColor: '#091E42',
     //   isCloseable: true,

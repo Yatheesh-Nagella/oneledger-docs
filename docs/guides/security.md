@@ -1,6 +1,6 @@
 # Security Best Practices
 
-Security implementation and best practices for OneLedger.
+Security implementation and best practices for OneLibro.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Security implementation and best practices for OneLedger.
 
 ## Security Overview
 
-OneLedger implements multiple layers of security:
+OneLibro implements multiple layers of security:
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -93,7 +93,7 @@ const secret = authenticator.generateSecret();
 // Generate QR code URL
 const otpauthUrl = authenticator.keyuri(
   userEmail,
-  'OneLedger Admin',
+  'OneLibro Admin',
   secret
 );
 

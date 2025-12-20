@@ -1,6 +1,6 @@
-# Getting Started with OneLedger
+# Getting Started with OneLibro
 
-This guide will help you set up OneLedger locally for development.
+This guide will help you set up OneLibro locally for development.
 
 ## Prerequisites
 

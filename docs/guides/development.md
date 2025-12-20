@@ -1,6 +1,6 @@
 # Development Workflow
 
-Best practices and workflow for OneLedger development.
+Best practices and workflow for OneLibro development.
 
 ## Table of Contents
 

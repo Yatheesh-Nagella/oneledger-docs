@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# Welcome to OneLedger
+# Welcome to OneLibro
 
-OneLedger is a modern **personal finance tracker** built with Next.js 15, Supabase, and Plaid integration.
+OneLibro is a modern **personal finance tracker** built with Next.js 15, Supabase, and Plaid integration.
 
 ## 🚀 Quick Start
 
-Get started with OneLedger in less than 5 minutes:
+Get started with OneLibro in less than 5 minutes:
 
 1. **[Installation Guide](./getting-started/installation.md)** - Set up your local environment
 2. **[Architecture Overview](./architecture/overview.md)** - Understand the system design

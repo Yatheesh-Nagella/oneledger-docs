@@ -1,6 +1,6 @@
 # Troubleshooting Guide
 
-Common issues and solutions for OneLedger development.
+Common issues and solutions for OneLibro development.
 
 ## Table of Contents
 
