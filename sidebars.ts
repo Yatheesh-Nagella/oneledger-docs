@@ -23,6 +23,26 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Features',
+      collapsed: false,
+      items: [
+        'features/email-system',
+        'features/invite-requests',
+        'features/budget-alerts',
+        'features/admin-dashboard',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Components',
+      collapsed: false,
+      items: [
+        'components/overview',
+        'components/navigation',
+      ],
+    },
+    {
+      type: 'category',
       label: 'API Reference',
       items: [
         'api/overview',
